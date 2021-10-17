@@ -1,12 +1,22 @@
 # Site settings
-title:
+title: Bilal Ahmad
 email: 
 description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
 
-twitter_username:
-github_username: bilal44
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: github
+    url: https://github.com/bilal44
+  - title: free-code-camp
+    url: https://www.freecodecamp.com/bial44
+  - title: facebook
+    url: https://www.facebook.com/profile.php?id=100002098483559
+  - title: linked-in
+    url: http://www.linkedin.com
+  -title: skype
+    url:skype:dd_bilal?chat
 
 # Build settings
 markdown: kramdown
