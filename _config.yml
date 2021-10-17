@@ -7,16 +7,16 @@ url: "" # the base hostname & protocol for your site
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: github
+  title: github
     url: https://github.com/bilal44
-  - title: free-code-camp
+  title: free-code-camp
     url: https://www.freecodecamp.com/bial44
-  - title: facebook
+  title: facebook
     url: https://www.facebook.com/profile.php?id=100002098483559
-  - title: linked-in
+  title: linked-in
     url: http://www.linkedin.com
-  -title: skype
-    url:skype:dd_bilal?chat
+  title: skype
+    url: skype:dd_bilal?chat
 
 # Build settings
 markdown: kramdown
