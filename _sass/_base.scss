@@ -490,7 +490,7 @@ ul.social-network li {
 .social-network a.icoLinkedin:hover i, .social-network a.icoSkype:hover i {
 	color:#fff;
 }
-.social-network a.icoGitHub:hover {
+.social-network a.icoGitHub:hover i {
     color: #222;
 }
 a.socialIcon:hover, .socialHoverClass {
@@ -531,7 +531,7 @@ a.socialIcon:hover, .socialHoverClass {
 	text-align: center;
 }
 
-.social-circle li a:hover i {
+.social-circle a:hover i {
 	-moz-transform: rotate(360deg);
 	-webkit-transform: rotate(360deg);
 	-ms--transform: rotate(360deg);
