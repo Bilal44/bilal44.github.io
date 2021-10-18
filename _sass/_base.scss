@@ -221,17 +221,21 @@ header {
     }
 }
 
+#portfolio {
+    padding: 5%;
+}
+
 .portfolio-box {
     position: relative;
     display: block;
-    height: 675px;
     width: 100%;
+    height: auto;
     margin: 0 auto;
     .portfolio-box-caption {
         color: white;
         opacity: 0;
         display: block;
-        background: rgba( $theme-primary, .9 );
+        background: #999;
         position: absolute;
         bottom: 0;
         text-align: center;
@@ -576,4 +580,10 @@ a.socialIcon:hover, .socialHoverClass {
 .social-circle i {
 	color: #fff;
 	transition: all 0.8s;
+}
+
+.img-portfolio {
+    display: block;
+    max-width: 70%;
+    height: 400px;
 }
