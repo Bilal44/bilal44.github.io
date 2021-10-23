@@ -586,11 +586,11 @@ a.socialIcon:hover, .socialHoverClass {
 
 #back-to-top-button {
     display: inline-block;
-    background-color: #b3dfd2;
-    width: 50px;
-    height: 50px;
+    background-color: $theme-primary;
+    width: 40px;
+    height: 40px;
     text-align: center;
-    border-radius: 4px;
+    border-radius: 100%;
     position: fixed;
     bottom: 30px;
     right: 20px;
@@ -598,9 +598,14 @@ a.socialIcon:hover, .socialHoverClass {
     opacity: 0;
     visibility: hidden;
     z-index: 1000;
+    font-size: 20px;
+    line-height: 40px;
+    outline: 0;
+    color: #fff;
+    background-color: #222;
 }
 
-.fa-chevron-up:before {
+.fa-angle-up:before {
     font-style: normal;
     font-size: 2em;
     line-height: 50px;
@@ -609,7 +614,7 @@ a.socialIcon:hover, .socialHoverClass {
 
 #back-to-top-button:hover {
     cursor: pointer;
-    background-color: #ff9800;
+    background-color: $theme-primary;
 }
 #back-to-top-button:active {
   background-color: #555;
