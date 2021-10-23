@@ -349,10 +349,6 @@ img::-moz-selection {
     background: transparent;
 }
 
-body {
-    -webkit-tap-highlight-color: $theme-dark;
-}
-
 section#contact .form-group {
     margin-bottom: 25px;
 }
@@ -443,7 +439,7 @@ ul.social-buttons li a {
 ul.social-buttons li a:hover,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
-    background-color: lightblue;
+    background-color: $theme-primary;
 }
 
 .btn:focus,
@@ -584,6 +580,47 @@ a.socialIcon:hover, .socialHoverClass {
 
 .img-portfolio {
     display: block;
-    max-width: 70%;
+    max-width: 100%;
     height: 400px;
+}
+
+#back-to-top-button {
+    display: inline-block;
+    background-color: #b3dfd2;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 4px;
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
+    transition: background-color .3s, opacity .5s, visibility .5s;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1000;
+}
+
+.fa-chevron-up:before {
+    font-style: normal;
+    font-size: 2em;
+    line-height: 50px;
+    color: #fff;
+}
+
+#back-to-top-button:hover {
+    cursor: pointer;
+    background-color: #ff9800;
+}
+#back-to-top-button:active {
+  background-color: #555;
+}
+#back-to-top-button.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+@media (min-width: 500px) {
+  #back-to-top-button {
+    margin: 20px;
+  }
 }
